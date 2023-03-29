@@ -1,0 +1,41 @@
+{
+  "name": "cra-template-antlysis-be",
+  "version": "1.0.6",
+  "main": "template.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antlysis/BE-MODULE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Antlysis/BE-MODULE/issues"
+  },
+
+  
+  "scripts": {
+    "dev": "nodemon server.js"
+
+  },
+  "homepage": "https://github.com/Antlysis/BE-MODULE#readme",
+  "dependencies": {
+    "aws": "^0.0.3-2",
+    "aws-sdk": "^2.1235.0",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.3.1",
+    "dotenv": "^16.0.3",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "express": "^4.18.2",
+    "helmet": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "node-fetch": "^2.6.1",
+    "nodejs": "^0.0.0",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "postgres": "^3.3.1",
+    "sequelize": "^6.25.2",
+    "serve": "^11.3.2"
+  },
+  "description": ""
+}

@@ -1,0 +1,30 @@
+/* MAIN CONTAINER */
+.App {
+	min-height: 100vh;
+	margin: auto;
+	max-width: 500px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+/* COMPONENTS */
+/* ERROR POPUP  */
+.error-popup-body {
+	padding: 20px 10px;
+}
+
+.error-popup-body .error-message {
+	font-size: 18px;
+}
+
+.error-popup-body .error-popup-button {
+	margin-top: 25px;
+}
+
+.error-popup-body .error-popup-icon {
+	font-size: 80px;
+	margin: 0 0 25px 0;
+	color: #ed4337;
+}
+
+/* YOUR CSS BELOW */
